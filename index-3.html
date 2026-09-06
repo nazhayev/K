@@ -1,0 +1,561 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>P2P Pro — Нажаев Ахмад | Практикум-курс по P2P</title>
+  <link rel="canonical" href="https://nazhayev.github.io/K/">
+  <meta name="robots" content="index, follow">
+  <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+
+  <!-- Open Graph / Facebook -->
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://nazhayev.github.io/K/">
+  <meta property="og:title" content="P2P Pro. Первые 100 000 ₽ на P2P арбитраже">
+  <meta property="og:description" content="Практикум по P2P-арбитражу от Нажаева Ахмада. Мейкер, большие спреды, авторские стратегии.">
+  <meta property="og:image" content="https://nazhayev.github.io/K/og-image.png">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:locale" content="ru_RU">
+
+  <!-- Twitter -->
+  <meta property="twitter:card" content="summary_large_image">
+  <meta property="twitter:url" content="https://nazhayev.github.io/K/">
+  <meta property="twitter:title" content="P2P Pro. Первые 100 000 ₽ на P2P арбитраже">
+  <meta property="twitter:description" content="Практикум по P2P-арбитражу от Нажаева Ахмада. Мейкер, большие спреды, авторские стратегии.">
+  <meta property="twitter:image" content="https://nazhayev.github.io/K/og-image.png">
+
+  <meta name="description" content="Практикум по P2P-арбитражу от Нажаева Ахмада. Мейкер, большие спреды, авторские стратегии, работа с прогретыми картами.">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800;900&display=swap" rel="stylesheet">
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Course",
+    "name": "P2P Pro — практикум по P2P-арбитражу",
+    "description": "Практикум по P2P-арбитражу: мейкер на бирже, большие спреды, работа с прогретыми картами, защита от мошенников.",
+    "provider": {
+      "@type": "Person",
+      "name": "Нажаев Ахмад"
+    },
+    "offers": [
+      {
+        "@type": "Offer",
+        "name": "Модуль «Старт»",
+        "price": "12900",
+        "priceCurrency": "RUB"
+      },
+      {
+        "@type": "Offer",
+        "name": "Модуль «Со мной»",
+        "price": "19900",
+        "priceCurrency": "RUB"
+      }
+    ]
+  }
+  </script>
+
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    html { scroll-behavior: smooth; }
+    body { background: #0a0a0a; color: #fff; font-family: 'Inter', system-ui, -apple-system, sans-serif; min-height: 100vh; overflow-x: hidden; }
+    a { text-decoration: none; }
+    img { max-width: 100%; display: block; }
+
+    /* HERO */
+    .hero { position: relative; padding: 60px 20px 60px; text-align: center; background: linear-gradient(180deg, #0a0a0a 0%, #120a1a 100%); }
+    .hero-inner { max-width: 900px; margin: 0 auto; position: relative; z-index: 1; }
+    .hero-photo-wrap { display: flex; justify-content: center; margin-bottom: 24px; }
+    .hero-photo { width: 140px; height: 140px; border-radius: 50%; object-fit: cover; border: 3px solid rgba(168,85,247,0.5); box-shadow: 0 8px 32px rgba(168,85,247,0.25); }
+    .hero-badge { display: inline-block; background: #000; border: 2px solid #333; border-radius: 12px; padding: 10px 28px; margin-bottom: 24px; }
+    .hero-badge p { color: #fff; font-size: 14px; font-weight: 600; letter-spacing: 2px; text-transform: uppercase; margin: 0; }
+    .hero h1 { font-size: clamp(32px, 6vw, 64px); font-weight: 900; line-height: 1.1; margin: 0 0 16px; }
+    .hero h1 .violet { color: #a855f7; }
+    .hero-firstline { font-size: clamp(18px, 2.8vw, 26px); font-weight: 700; color: #fff; margin: 0 0 12px; }
+    .hero-firstline .violet { color: #a855f7; }
+    .gold-badge { display: inline-block; color: #f5c451; border: 2px solid #f5c451; border-radius: 10px; padding: 2px 12px; box-shadow: 0 0 16px rgba(245,196,81,0.35); }
+    .hero-subtitle { font-size: clamp(18px, 2.8vw, 26px); color: #fff; font-weight: 700; margin: 0 0 10px; }
+    .hero-subtitle .violet { color: #a855f7; }
+    .hero-disclaimer { font-size: 13px; color: #777; font-weight: 400; margin: 0 0 32px; line-height: 1.5; max-width: 560px; margin-left: auto; margin-right: auto; }
+    .hero-tags { display: inline-flex; flex-wrap: wrap; gap: 12px; justify-content: center; margin-bottom: 40px; }
+    .hero-tag { background: rgba(168,85,247,0.15); color: #a855f7; border: 1px solid rgba(168,85,247,0.3); padding: 8px 20px; border-radius: 100px; font-size: 14px; font-weight: 500; }
+    .btn-primary { display: inline-block; background: linear-gradient(135deg, #a855f7, #7c3aed); color: #fff; padding: 18px 48px; border-radius: 14px; font-size: 18px; font-weight: 700; box-shadow: 0 8px 32px rgba(168,85,247,0.35); transition: all 0.3s; }
+    .btn-primary:hover { transform: translateY(-2px); box-shadow: 0 12px 40px rgba(168,85,247,0.5); }
+    .glow-1 { position: absolute; top: -100px; right: -100px; width: 400px; height: 400px; background: radial-gradient(circle, rgba(168,85,247,0.15), transparent 70%); pointer-events: none; }
+    .glow-2 { position: absolute; bottom: -100px; left: -100px; width: 300px; height: 300px; background: radial-gradient(circle, rgba(168,85,247,0.1), transparent 70%); pointer-events: none; }
+
+    /* COUNTDOWN */
+    .countdown-section { padding: 40px 20px; text-align: center; background: linear-gradient(180deg, #120a1a, #0a0a0a); }
+    .countdown-container { max-width: 700px; margin: 0 auto; background: linear-gradient(145deg, #111, #1a0f2e); border: 1px solid rgba(168,85,247,0.3); border-radius: 20px; padding: 32px 24px; }
+    .countdown-title { color: #a855f7; font-size: 14px; font-weight: 700; letter-spacing: 2px; text-transform: uppercase; margin-bottom: 20px; }
+    .countdown-timer { display: flex; justify-content: center; gap: 16px; flex-wrap: wrap; }
+    .countdown-item { background: rgba(168,85,247,0.1); border: 1px solid rgba(168,85,247,0.2); border-radius: 12px; padding: 16px 24px; min-width: 80px; }
+    .countdown-number { font-size: 36px; font-weight: 900; color: #fff; display: block; }
+    .countdown-label { font-size: 12px; color: #888; text-transform: uppercase; letter-spacing: 1px; margin-top: 4px; }
+    .countdown-expired { color: #ef4444; font-size: 24px; font-weight: 700; }
+
+    /* SECTIONS */
+    .section { padding: 60px 20px; }
+    .container { max-width: 900px; margin: 0 auto; }
+    .section-title { text-align: center; font-size: clamp(24px, 4vw, 40px); font-weight: 800; margin-bottom: 48px; }
+
+    /* WHAT YOU GET */
+    .cards-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 16px; }
+    .card { background: #111; border: 1px solid #222; border-radius: 16px; padding: 24px; text-align: center; transition: all 0.3s; }
+    .card:hover { border-color: rgba(168,85,247,0.4); transform: translateY(-4px); }
+    .card-icon { font-size: 32px; margin-bottom: 12px; }
+    .card-text { color: #ccc; font-size: 15px; font-weight: 500; margin: 0; }
+    .requirements-box { margin-top: 36px; background: linear-gradient(135deg, rgba(168,85,247,0.1), rgba(168,85,247,0.05)); border: 1px solid rgba(168,85,247,0.25); border-radius: 16px; padding: 24px 32px; text-align: center; }
+    .requirements-box p { color: #ccc; font-size: 16px; line-height: 1.7; margin: 0; }
+    .requirements-box strong { color: #fff; }
+
+    /* REVIEWS SLIDER */
+    .reviews-section { padding: 60px 20px; background: linear-gradient(180deg, #0a0a0a, #120a1a); }
+    .reviews-container { max-width: 1000px; margin: 0 auto; }
+    .reviews-slider { display: flex; align-items: flex-start; gap: 20px; overflow-x: auto; scroll-snap-type: x mandatory; scroll-behavior: smooth; -webkit-overflow-scrolling: touch; padding-bottom: 20px; scrollbar-width: none; }
+    .reviews-slider::-webkit-scrollbar { display: none; }
+    .review-card { flex: 0 0 320px; scroll-snap-align: start; background: linear-gradient(145deg, #111, #1a0f2e); border: 1px solid rgba(168,85,247,0.2); border-radius: 20px; padding: 28px; position: relative; }
+    .review-text { color: #ccc; font-size: 15px; line-height: 1.7; margin-bottom: 20px; position: relative; z-index: 1; }
+    .review-author { display: flex; align-items: center; gap: 12px; }
+    .review-avatar { width: 44px; height: 44px; border-radius: 50%; object-fit: cover; background: linear-gradient(135deg, #a855f7, #7c3aed); display: flex; align-items: center; justify-content: center; font-size: 18px; }
+    .review-name { color: #fff; font-weight: 600; font-size: 14px; }
+    .review-status { color: #888; font-size: 12px; }
+    .review-image { width: 100%; height: 160px; object-fit: cover; border-radius: 12px; margin-bottom: 16px; }
+    .slider-dots { display: flex; justify-content: center; gap: 8px; margin-top: 20px; }
+    .slider-dot { width: 8px; height: 8px; border-radius: 50%; background: #333; transition: all 0.3s; cursor: pointer; }
+    .slider-dot.active { background: #a855f7; width: 24px; border-radius: 4px; }
+    .slider-nav { display: flex; justify-content: center; gap: 12px; margin-top: 16px; }
+    .slider-btn { background: rgba(168,85,247,0.15); border: 1px solid rgba(168,85,247,0.3); color: #a855f7; padding: 10px 24px; border-radius: 100px; font-size: 14px; font-weight: 600; cursor: pointer; transition: all 0.3s; }
+    .slider-btn:hover { background: #a855f7; color: #fff; }
+
+    /* MODULES */
+    .modules-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(320px, 1fr)); gap: 24px; align-items: start; }
+    .module-card { border-radius: 24px; padding: 36px 28px; position: relative; }
+    .module-card-start { background: #fff; color: #000; }
+    .module-card-pro { background: linear-gradient(145deg, #1a0f2e, #0f0520); border: 2px solid #a855f7; box-shadow: 0 0 60px rgba(168,85,247,0.15); }
+    .module-badge { display: inline-block; padding: 8px 20px; border-radius: 100px; font-size: 12px; font-weight: 700; text-transform: uppercase; letter-spacing: 1px; margin-bottom: 20px; }
+    .module-badge-start { background: #000; color: #fff; }
+    .module-badge-pro { background: rgba(168,85,247,0.2); color: #a855f7; }
+    .module-recommend { position: absolute; top: -14px; left: 50%; transform: translateX(-50%); background: linear-gradient(135deg, #a855f7, #7c3aed); color: #fff; padding: 6px 24px; border-radius: 100px; font-size: 12px; font-weight: 700; text-transform: uppercase; letter-spacing: 1px; }
+    .module-title { font-size: 28px; font-weight: 900; margin: 0 0 24px; }
+    .module-title-start { color: #000; }
+    .module-title-pro { color: #a855f7; }
+    .module-section-title { font-weight: 600; font-size: 13px; text-transform: uppercase; letter-spacing: 1px; margin: 20px 0 16px; }
+    .module-section-title-in { color: #888; }
+    .module-section-title-next { color: #bbb; }
+    .module-list { list-style: none; padding: 0; margin: 0; }
+    .module-list li { padding: 8px 0; font-size: 15px; font-weight: 500; }
+    .module-list-start li { color: #222; }
+    .module-list-pro li { color: #ccc; }
+    .module-price { margin: 24px 0; }
+    .module-price span { font-size: 36px; font-weight: 900; }
+    .module-price-start span { color: #000; }
+    .module-price-pro span { color: #fff; }
+    .old-price { margin-bottom: 8px; }
+    .old-price span { color: #999; font-size: 20px; text-decoration: line-through; }
+    .old-price-pro span { color: #aaa; font-size: 20px; text-decoration: line-through; }
+    .btn-start { display: block; text-align: center; background: #000; color: #fff; padding: 16px; border-radius: 14px; font-size: 16px; font-weight: 700; transition: all 0.3s; }
+    .btn-start:hover { background: #333; }
+    .btn-pro { display: block; text-align: center; background: linear-gradient(135deg, #a855f7, #7c3aed); color: #fff; padding: 16px; border-radius: 14px; font-size: 16px; font-weight: 700; box-shadow: 0 8px 32px rgba(168,85,247,0.35); transition: all 0.3s; }
+    .btn-pro:hover { transform: translateY(-2px); box-shadow: 0 12px 40px rgba(168,85,247,0.5); }
+
+    /* FAQ */
+    .faq-list { max-width: 800px; margin: 0 auto; }
+    .faq-item { background: #111; border: 1px solid #222; border-radius: 16px; margin-bottom: 12px; overflow: hidden; }
+    .faq-question { width: 100%; background: none; border: none; color: #fff; padding: 20px 24px; text-align: left; font-size: 16px; font-weight: 600; cursor: pointer; display: flex; justify-content: space-between; align-items: center; font-family: inherit; }
+    .faq-icon { color: #a855f7; font-size: 20px; transition: transform 0.3s; }
+    .faq-answer { max-height: 0; overflow: hidden; transition: max-height 0.3s ease; }
+    .faq-answer-inner { padding: 0 24px 20px; color: #aaa; line-height: 1.7; font-size: 15px; }
+
+    /* CONTACT */
+    .contact-section { padding: 60px 20px; text-align: center; background: linear-gradient(180deg, #0a0a0a, #120a1a); }
+    .contact-inner { max-width: 700px; margin: 0 auto; }
+    .contact-subtitle { color: #888; font-size: 18px; margin: 0 0 36px; }
+    .btn-telegram { display: inline-flex; align-items: center; gap: 12px; background: linear-gradient(135deg, #a855f7, #7c3aed); color: #fff; padding: 20px 48px; border-radius: 16px; font-size: 18px; font-weight: 700; box-shadow: 0 12px 40px rgba(168,85,247,0.4); transition: all 0.3s; }
+    .btn-telegram:hover { transform: translateY(-2px); box-shadow: 0 16px 48px rgba(168,85,247,0.55); }
+    .telegram-handle { color: #888; font-size: 14px; margin-top: 16px; }
+
+    /* FOOTER */
+    footer { padding: 40px 20px; text-align: center; border-top: 1px solid #1a1a1a; }
+    .footer-brand { color: #a855f7; font-size: 18px; font-weight: 700; margin: 0 0 8px; }
+    .footer-copy { color: #888; font-size: 13px; margin: 0; }
+
+    /* RESPONSIVE */
+    @media (max-width: 480px) {
+      .hero { padding: 50px 16px 40px; }
+      .hero-photo { width: 110px; height: 110px; }
+      .btn-primary, .btn-telegram { padding: 16px 32px; font-size: 16px; }
+      .module-card { padding: 28px 20px; }
+      .review-card { flex: 0 0 280px; }
+      .countdown-item { padding: 12px 16px; min-width: 60px; }
+      .countdown-number { font-size: 28px; }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- HERO -->
+  <section class="hero">
+    <div class="glow-1"></div>
+    <div class="glow-2"></div>
+    <div class="hero-inner">
+      <div class="hero-photo-wrap">
+        <img class="hero-photo" src="hero-photo.jpg" alt="Нажаев Ахмад — автор курса P2P Pro">
+      </div>
+      <div class="hero-badge">
+        <p>Практикум по P2P-арбитражу</p>
+      </div>
+      <h1>
+        <span class="violet">За 2 недели</span> и <span class="violet">БЕЗ ОПЫТА</span><br>
+        начни <span class="violet">ДОПОЛНИТЕЛЬНО</span> зарабатывать
+      </h1>
+      <p class="hero-firstline">Первые <span class="gold-badge">100 000 ₽</span> на P2P</p>
+      <p class="hero-subtitle">
+        Хочешь научиться зарабатывать <span class="violet">от 3 000 ₽</span> в день? Читай, что входит в курс, ниже ↓
+      </p>
+      <p class="hero-disclaimer">
+        Цифры выше — реалистичный ориентир, а не обещание. Результат зависит от твоей вовлечённости, депозита и применения теории и практики из курса. Как наставник я даю знания и сопровождение, доход не гарантирую.
+      </p>
+      <div class="hero-tags">
+        <span class="hero-tag">Мейкер на бирже</span>
+        <span class="hero-tag">Большие спреды</span>
+        <span class="hero-tag">Авторские стратегии</span>
+      </div>
+      <a href="#modules" class="btn-primary">Выбрать модуль</a>
+    </div>
+  </section>
+
+  <!-- COUNTDOWN -->
+  <section class="countdown-section">
+    <div class="countdown-container">
+      <p class="countdown-title">⏰ Закрытие продаж через:</p>
+      <div class="countdown-timer" id="countdown">
+        <div class="countdown-item">
+          <span class="countdown-number" id="days">00</span>
+          <span class="countdown-label">дней</span>
+        </div>
+        <div class="countdown-item">
+          <span class="countdown-number" id="hours">00</span>
+          <span class="countdown-label">часов</span>
+        </div>
+        <div class="countdown-item">
+          <span class="countdown-number" id="minutes">00</span>
+          <span class="countdown-label">минут</span>
+        </div>
+        <div class="countdown-item">
+          <span class="countdown-number" id="seconds">00</span>
+          <span class="countdown-label">секунд</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- WHAT YOU GET -->
+  <section class="section">
+    <div class="container">
+      <h2 class="section-title">Что ты получишь в курсе</h2>
+      <div class="cards-grid">
+        <div class="card">
+          <div class="card-icon">📈</div>
+          <p class="card-text">Возможность сделать мейкер</p>
+        </div>
+        <div class="card">
+          <div class="card-icon">💰</div>
+          <p class="card-text">Большие спреды</p>
+        </div>
+        <div class="card">
+          <div class="card-icon">🛡️</div>
+          <p class="card-text">Как разбираться с мошенниками</p>
+        </div>
+        <div class="card">
+          <div class="card-icon">💳</div>
+          <p class="card-text">Можно начать с 10 000 ₽</p>
+        </div>
+        <div class="card">
+          <div class="card-icon">🚀</div>
+          <p class="card-text">От объявления до первых сделок</p>
+        </div>
+        <div class="card">
+          <div class="card-icon">🧠</div>
+          <p class="card-text">Мои авторские стратегии</p>
+        </div>
+      </div>
+      <div class="requirements-box">
+        <p>Для всего этого достаточно иметь <strong>телефон</strong>, <strong>интернет</strong>, <strong>биржи</strong>, <strong>банковские карты</strong> и <strong>небольшой депозит</strong></p>
+      </div>
+    </div>
+  </section>
+
+  <!-- MODULES -->
+  <section class="section" id="modules" style="background: linear-gradient(180deg, #0a0a0a, #120a1a);">
+    <div class="container">
+      <h2 class="section-title">Модули</h2>
+      <div class="modules-grid">
+
+        <div class="module-card module-card-start">
+          <span class="module-badge module-badge-start">Модуль</span>
+          <h3 class="module-title module-title-start">«Старт»</h3>
+
+          <p class="module-section-title module-section-title-in">Что входит</p>
+          <ul class="module-list module-list-start">
+            <li>— Работа с личной фермой карт</li>
+            <li>— Мейкер на бирже с высоким спредом</li>
+            <li>— Авторские стратегии для заработка от 3 000 ₽ в день</li>
+            <li>— Доступ в онлайн обменники (600+ трейдеров)</li>
+          </ul>
+
+          <p class="module-section-title module-section-title-next">Входит в следующий модуль</p>
+          <ul class="module-list module-list-start" style="opacity:0.5;">
+            <li>— Работа без карт</li>
+            <li>— Авторский сайт для прогрева банковских карт (единственный на рынке)</li>
+          </ul>
+
+          <div class="module-price module-price-start">
+            <div class="old-price"><span>24 900 ₽</span></div>
+            <span>12 900 ₽</span>
+          </div>
+          <a href="https://t.me/nazhayev" target="_blank" rel="noopener noreferrer" class="btn-start">Забронировать «Старт»</a>
+        </div>
+
+        <div class="module-card module-card-pro">
+          <span class="module-recommend">Рекомендую</span>
+          <span class="module-badge module-badge-pro">Модуль</span>
+          <h3 class="module-title module-title-pro">«Со мной»</h3>
+
+          <p class="module-section-title module-section-title-pro">Что входит</p>
+          <ul class="module-list module-list-pro">
+            <li>— Работа с личной фермой карт</li>
+            <li>— Мейкер на бирже с высоким спредом</li>
+            <li>— Авторские стратегии для заработка от 3 000 ₽ в день</li>
+            <li>— Работа без карт</li>
+            <li>— Авторский сайт для прогрева банковских карт (единственный на рынке)</li>
+            <li>— Доступ в онлайн обменники (600+ трейдеров)</li>
+          </ul>
+
+          <div class="module-price module-price-pro">
+            <div class="old-price old-price-pro"><span>34 900 ₽</span></div>
+            <span>19 900 ₽</span>
+          </div>
+          <a href="https://t.me/nazhayev" target="_blank" rel="noopener noreferrer" class="btn-pro">Забронировать «Со мной»</a>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- REVIEWS -->
+  <section class="reviews-section">
+    <div class="reviews-container">
+      <h2 class="section-title">Отзывы учеников</h2>
+      <div class="reviews-slider" id="reviewsSlider">
+
+        <div class="review-card">
+          <img class="review-image" src="review-1.jpg" alt="Отзыв ученика: связка работает" style="height:auto;">
+          <p class="review-text">«Твоя связка работает» — обратная связь после первых сделок.</p>
+        </div>
+
+        <div class="review-card">
+          <img class="review-image" src="review-2.jpg" alt="Отзыв ученика: связка мощная" style="height:auto;">
+          <p class="review-text">«Маш Аллах, связка мощная» — благодарность за результат.</p>
+        </div>
+
+        <div class="review-card">
+          <img class="review-image" src="review-3.jpg" alt="Отзыв ученика: благодарность за помощь" style="height:auto;">
+          <p class="review-text">Ученик благодарит за поддержку и результат после нескольких неудачных попыток до этого.</p>
+        </div>
+
+        <div class="review-card">
+          <img class="review-image" src="review-4.jpg" alt="Отзыв ученика: хорошо заработал по связке" style="height:auto;">
+          <p class="review-text">«Я по связке очень хорошо заработал» — отзыв в общем чате команды.</p>
+        </div>
+
+        <div class="review-card">
+          <img class="review-image" src="review-5.jpg" alt="Отзыв о результатах субботнего вебинара" style="height:auto;">
+          <p class="review-text">После этого вебинара по одной связке обучено уже более 70 учеников.</p>
+        </div>
+
+      </div>
+      <div class="slider-dots" id="sliderDots"></div>
+      <div class="slider-nav">
+        <button class="slider-btn" id="sliderPrev" aria-label="Предыдущий отзыв">← Назад</button>
+        <button class="slider-btn" id="sliderNext" aria-label="Следующий отзыв">Вперёд →</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- FAQ -->
+  <section class="section" style="background: linear-gradient(180deg, #0a0a0a, #120a1a);">
+    <div class="container">
+      <h2 class="section-title">Частые вопросы</h2>
+      <div class="faq-list">
+
+        <div class="faq-item">
+          <button class="faq-question" onclick="toggleFaq(this)" aria-expanded="false">
+            <span>Что такое P2P-арбитраж?</span>
+            <span class="faq-icon">+</span>
+          </button>
+          <div class="faq-answer">
+            <div class="faq-answer-inner">
+              P2P (peer-to-peer) — это прямые сделки купли-продажи криптовалюты между людьми на площадке биржи, без вывода в блокчейн. Заработок строится на разнице между ценой покупки и продажи (спреде) и на объёме сделок в течение дня.
+            </div>
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <button class="faq-question" onclick="toggleFaq(this)" aria-expanded="false">
+            <span>Сколько можно заработать?</span>
+            <span class="faq-icon">+</span>
+          </button>
+          <div class="faq-answer">
+            <div class="faq-answer-inner">
+              Точную цифру никто гарантировать не может — это зависит от депозита, объёма сделок и твоей вовлечённости. Ориентир для тех, кто применяет теорию и практику курса на постоянной основе — от 3 000 ₽ в день. Это возможность, а не обещание.
+            </div>
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <button class="faq-question" onclick="toggleFaq(this)" aria-expanded="false">
+            <span>С какого депозита начать?</span>
+            <span class="faq-icon">+</span>
+          </button>
+          <div class="faq-answer">
+            <div class="faq-answer-inner">
+              Минимально — от 10 000 ₽, этого достаточно, чтобы отработать механику на практике. Для более комфортной работы и заметного результата рекомендую 20 000–30 000 ₽.
+            </div>
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <button class="faq-question" onclick="toggleFaq(this)" aria-expanded="false">
+            <span>Как защититься от мошенников?</span>
+            <span class="faq-icon">+</span>
+          </button>
+          <div class="faq-answer">
+            <div class="faq-answer-inner">
+              В курсе разбираю, как проверять контрагента перед сделкой, какие схемы обмана встречаются чаще всего и почему важно вести все сделки строго внутри чата биржи, не выходя в личные переписки — это твоя главная защита при споре.
+            </div>
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <button class="faq-question" onclick="toggleFaq(this)" aria-expanded="false">
+            <span>Что нужно для заработка?</span>
+            <span class="faq-icon">+</span>
+          </button>
+          <div class="faq-answer">
+            <div class="faq-answer-inner">
+              Телефон, интернет, аккаунт на бирже с P2P-разделом, свои банковские карты и небольшой стартовый депозит. Остальному — стратегиям, работе со спредом, прогреву карт — учу в курсе.
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section class="contact-section">
+    <div class="contact-inner">
+      <h2 class="section-title">Остались вопросы?</h2>
+      <p class="contact-subtitle">Напиши менеджеру — поможем выбрать модуль и оформить доступ</p>
+      <a href="https://t.me/nazhayev" target="_blank" rel="noopener noreferrer" class="btn-telegram">
+        <svg width="24" height="24" viewBox="0 0 240 240" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+          <circle cx="120" cy="120" r="120" fill="#ffffff"/>
+          <path d="M170.6 72.3 149.4 178.2c-1.6 7.1-5.8 8.8-11.7 5.5l-32.4-23.9-15.6 15c-1.7 1.7-3.2 3.2-6.5 3.2l2.3-33 60.2-54.4c2.6-2.3-.6-3.6-4.1-1.3l-74.4 46.9-32-10c-7-2.2-7.1-7 1.5-10.3l125-48.2c5.8-2.1 10.9 1.4 9 10.3z" fill="#a855f7"/>
+        </svg>
+        Написать в Telegram
+      </a>
+      <p class="telegram-handle">@nazhayev</p>
+    </div>
+  </section>
+
+  <footer>
+    <p class="footer-brand">P2P Pro — Нажаев Ахмад</p>
+    <p class="footer-copy">© 2026 Все права защищены</p>
+  </footer>
+
+  <script>
+    // COUNTDOWN — фиксированный дедлайн: 20.09.2026 23:59 по МСК (UTC+3)
+    (function () {
+      var target = new Date('2026-09-20T23:59:00+03:00').getTime();
+
+      function pad(n) { return String(n).padStart(2, '0'); }
+
+      var timer = setInterval(tick, 1000);
+      tick();
+
+      function tick() {
+        var diff = target - Date.now();
+        if (diff <= 0) {
+          document.getElementById('countdown').innerHTML = '<span class="countdown-expired">Продажи закрыты</span>';
+          clearInterval(timer);
+          return;
+        }
+        document.getElementById('days').textContent = pad(Math.floor(diff / 86400000));
+        document.getElementById('hours').textContent = pad(Math.floor(diff / 3600000) % 24);
+        document.getElementById('minutes').textContent = pad(Math.floor(diff / 60000) % 60);
+        document.getElementById('seconds').textContent = pad(Math.floor(diff / 1000) % 60);
+      }
+    })();
+
+    // FAQ ACCORDION
+    function toggleFaq(btn) {
+      var item = btn.parentElement;
+      var answer = item.querySelector('.faq-answer');
+      var icon = btn.querySelector('.faq-icon');
+      var isOpen = answer.style.maxHeight && answer.style.maxHeight !== '0px';
+
+      document.querySelectorAll('.faq-answer').forEach(function (a) { a.style.maxHeight = '0px'; });
+      document.querySelectorAll('.faq-icon').forEach(function (i) { i.textContent = '+'; });
+      document.querySelectorAll('.faq-question').forEach(function (q) { q.setAttribute('aria-expanded', 'false'); });
+
+      if (!isOpen) {
+        answer.style.maxHeight = answer.scrollHeight + 'px';
+        icon.textContent = '−';
+        btn.setAttribute('aria-expanded', 'true');
+      }
+    }
+
+    // REVIEWS SLIDER — точки и стрелки
+    (function () {
+      var slider = document.getElementById('reviewsSlider');
+      var dotsContainer = document.getElementById('sliderDots');
+      if (!slider || !dotsContainer) return;
+      var cards = slider.querySelectorAll('.review-card');
+
+      cards.forEach(function (card, i) {
+        var dot = document.createElement('span');
+        dot.className = 'slider-dot' + (i === 0 ? ' active' : '');
+        dot.addEventListener('click', function () {
+          slider.scrollTo({ left: card.offsetLeft - 20, behavior: 'smooth' });
+        });
+        dotsContainer.appendChild(dot);
+      });
+      var dots = dotsContainer.querySelectorAll('.slider-dot');
+
+      function updateDots() {
+        var closest = 0, min = Infinity;
+        cards.forEach(function (c, i) {
+          var diff = Math.abs(c.offsetLeft - slider.scrollLeft - 20);
+          if (diff < min) { min = diff; closest = i; }
+        });
+        dots.forEach(function (d, i) { d.classList.toggle('active', i === closest); });
+      }
+      slider.addEventListener('scroll', updateDots);
+
+      document.getElementById('sliderPrev').addEventListener('click', function () {
+        slider.scrollBy({ left: -340, behavior: 'smooth' });
+      });
+      document.getElementById('sliderNext').addEventListener('click', function () {
+        slider.scrollBy({ left: 340, behavior: 'smooth' });
+      });
+    })();
+  </script>
+
+</body>
+</html>
